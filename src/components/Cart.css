@@ -1,0 +1,60 @@
+.Mar{
+    margin-top: 70px !important;
+    height:60vh;
+}
+@media screen And (max-width:1000px) {
+    .Mar img{
+        height:100%;
+        width: 100%;
+    }
+    .total{width: 100%;}
+}
+.col-11 h2{
+    color:gray;
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+.price{
+    color:blue
+}
+.rating{
+    color:goldenrod
+}
+h1{
+    color:brown;
+}
+.Mar img{
+    height:100%;
+    width: 70%;
+}
+.info{
+    display: flex !important;
+    align-items: center;
+}
+.total{
+    margin-top: 20px;
+    width:30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:30vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color:rgb(151, 15, 20);
+}
+@media screen And (max-width:1000px) {
+    .Mar img{
+        height:100%;
+        width: 100%;
+    }
+    .total{width: 100% !important;}
+}
+input{
+    width:80px;
+    height:25px;
+    margin-left: 10px;
+}
+input:focus{
+    border: 2px solid black;
+    outline:none
+}
